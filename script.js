@@ -389,12 +389,11 @@ document.addEventListener('DOMContentLoaded', () => {
             { x: 100, opacity: 0 },
             { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' }
           );
-          gsap.to(pythonBar, { width: '87%', duration: 2, ease: 'power2.out' });
-          gsap.to(cppBar, { width: '75%', duration: 2, ease: 'power2.out' });
-          gsap.to(csharpBar, { width: '80%', duration: 2, ease: 'power2.out' });
+          gsap.to(luaBar, { width: '87%', duration: 2, ease: 'power2.out' });
+          gsap.to(htmlBar, { width: '75%', duration: 2, ease: 'power2.out' });
+          gsap.to(jsBar, { width: '80%', duration: 2, ease: 'power2.out' });
         }
       });
-      resultsHint.classList.remove('hidden');
       isShowingSkills = true;
     }
   });

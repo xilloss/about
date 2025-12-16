@@ -121,7 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
     "Roblox game maker",
     "Website maker",
     "M.I.R Interactive Main Coordinator",
-    "Obelisk Foundation Co-Owner"
+    "Obelisk Foundation Co-Owner",
+    "PMC \"Dolorem\" Co-Owner"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -444,4 +445,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   
   typeWriterStart();
+
 });
